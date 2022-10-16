@@ -1,0 +1,17 @@
+POST http://localhost:8081/store
+Content-Type: application/json
+
+{
+  "name": "Adidassdasd",
+  "zipCode": 456,
+  "address": "dasda Oeste",
+  "city": "Gamsadada",
+  "state": "DFasdsa",
+  "ecommerceId": 100
+}
+
+###
+GET http://localhost:8081/store
+Accept: application/json
+
+###

@@ -1,0 +1,13 @@
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres?schema=product
+    username: root
+    password: root
+
+logging:
+  level:
+    io.r2dbc.postgresql.QUERY: DEBUG # for queries
+    io.r2dbc.postgresql.PARAM: DEBUG # for parameters
+server:
+  port: 8082
